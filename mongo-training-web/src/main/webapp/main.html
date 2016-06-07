@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mongo Training</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/js/mongo-training.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="alert alert-info" role="alert">
+	<span id="message" class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+</div>
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default" onclick="startListening()">Start Listening</button>
+	<button type="button" class="btn btn-default" onclick="stopListening()">Stop Listening</button>
+</div>
+
+<br/>
+<br/>
+
+<div class="btn-group" role="group" aria-label="...">
+	<input id="search"/><br/>
+	<button type="button" class="btn btn-default" onclick="searchText()">Search text</button>
+</div>
+
+<br/>
+<br/>
+
+<div class="btn-group" role="group" aria-label="...">
+	<button type="button" class="btn btn-default" onclick="nearSphere()">Random Tweets near sphere</button>
+</div>
+
+<br/>
+<br/>
+
+<textarea id="hello" rows="30" cols="200">
+Result:
+</textarea>
+
+<br/>
+<br/>
+
+</body>
+</html>
