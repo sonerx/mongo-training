@@ -6,6 +6,9 @@ Uygulamanin calismasi icin asagidaki uygulamalarin yuklu olmasi ve mongotraining
 * MongoDB: Uygulamada verilerin tutuldugu NoSQL database, mongo.host ve mongo.port ile konfigure edilir. MongoDB kurulumu icin [buraya](https://docs.mongodb.org/manual/installation/)
 * Maven: Projeyi derlemek icin gereklidir. Maven kurulumu icin [buraya](https://maven.apache.org/install.html) 
 
+## twitter4j configuration ##
+[twitter4j](http://twitter4j.org/en/configuration.html) adresinde verildigi gibi, twitter4j.properties dosyasina ilgili token bilgilerini girerek, twitter'dan veri dinlemeye baslayabilirsiniz.
+
 ## BUILD VE RUN ##
 
 Projeyi build etmek icin Intellij Idea'dan
